@@ -59,6 +59,11 @@ public class NewTest {
   public void Search() {
 	  System.out.print("testCreated");
   }
+  
+  @Test(priority=4)
+  public void Searchisfinished() {
+	  System.out.print("test passed");
+  }
   @AfterClass
  
   public void Close() {
