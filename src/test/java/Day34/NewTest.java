@@ -61,7 +61,7 @@ public class NewTest {
   }
   
   @Test(priority=4)
-  public void Searchisfinished() {
+  public void Searchisdone() {
 	  System.out.print("test passed");
   }
   @AfterClass
