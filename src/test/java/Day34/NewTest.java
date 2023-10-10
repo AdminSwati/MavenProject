@@ -49,7 +49,7 @@ public class NewTest {
 				System.out.print("Successful login, dashboard is present");
 		else
 				System.out.print("Test failed Dashboard");
-		if(driver.getTitle().equals("OrangeHRM"))
+		if(driver.getTitle().equals("OrangeHRM1"))
 		System.out.print("\nTest passed, title is OrangeHRM");
 		else
 		System.out.print("\n test failed");
