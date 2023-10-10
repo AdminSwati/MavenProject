@@ -1,9 +1,11 @@
 package Day34;
 import org.testng.annotations.Test;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
 import org.testng.annotations.BeforeMethod;
 
+import static org.testng.Assert.assertEquals;
 
 import java.time.Duration;
 
@@ -38,21 +40,22 @@ public class NewTest {
   public void DashboardTest() {
 	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	  String act_label="";
+	  String exp_label= "Dashboard";
 		try {
 			act_label= driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[1]/span/h6")).getText();
 		}
 		catch(NoSuchElementException e) {
 			
 		}
-		
-		if(act_label.equals("Dashboard"))
+		Assert.assertEquals(exp_label,act_label);
+		/*if(act_label.equals("Dashboard"))
 				System.out.print("Successful login, dashboard is present");
 		else
 				System.out.print("Test failed Dashboard");
-		if(driver.getTitle().equals("OrangeHRM1"))
+		if(driver.getTitle().equals("OrangeHRM"))
 		System.out.print("\nTest passed, title is OrangeHRM");
 		else
-		System.out.print("\n test failed");
+		System.out.print("\n test failed");*/
   }
   
   @Test(priority=4)
