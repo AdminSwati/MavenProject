@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-10T18:18:26 CEST" name="Default suite" finished-at="2023-10-10T18:18:32 CEST" duration-ms="5200">
+  <suite started-at="2023-10-11T10:26:25 CEST" name="Default suite" finished-at="2023-10-11T10:26:36 CEST" duration-ms="11124">
     <groups>
     </groups>
-    <test started-at="2023-10-10T18:18:26 CEST" name="Default test" finished-at="2023-10-10T18:18:32 CEST" duration-ms="5200">
+    <test started-at="2023-10-11T10:26:25 CEST" name="Default test" finished-at="2023-10-11T10:26:36 CEST" duration-ms="11124">
       <class name="Day34.NewTest">
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-10T18:18:26 CEST" name="OpenApp" finished-at="2023-10-10T18:18:28 CEST" duration-ms="1210" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-11T10:26:25 CEST" name="OpenApp" finished-at="2023-10-11T10:26:28 CEST" duration-ms="2466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="LoginTest()[pri:1, instance:Day34.NewTest@48c3205a]" started-at="2023-10-10T18:18:28 CEST" name="LoginTest" finished-at="2023-10-10T18:18:29 CEST" duration-ms="1016" status="PASS">
+        <test-method signature="LoginTest()[pri:1, instance:Day34.NewTest@48c3205a]" started-at="2023-10-11T10:26:28 CEST" name="LoginTest" finished-at="2023-10-11T10:26:29 CEST" duration-ms="1560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-10T18:18:29 CEST" name="OpenApp" finished-at="2023-10-10T18:18:29 CEST" duration-ms="753" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-11T10:26:29 CEST" name="OpenApp" finished-at="2023-10-11T10:26:30 CEST" duration-ms="692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="DashboardTest()[pri:3, instance:Day34.NewTest@48c3205a]" started-at="2023-10-10T18:18:29 CEST" name="DashboardTest" finished-at="2023-10-10T18:18:30 CEST" duration-ms="543" status="PASS">
+        <test-method signature="DashboardTest()[pri:3, instance:Day34.NewTest@48c3205a]" started-at="2023-10-11T10:26:30 CEST" name="DashboardTest" finished-at="2023-10-11T10:26:30 CEST" duration-ms="614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DashboardTest -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-10T18:18:30 CEST" name="OpenApp" finished-at="2023-10-10T18:18:31 CEST" duration-ms="1005" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-11T10:26:30 CEST" name="OpenApp" finished-at="2023-10-11T10:26:31 CEST" duration-ms="1060" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="Search()[pri:4, instance:Day34.NewTest@48c3205a]" started-at="2023-10-10T18:18:31 CEST" name="Search" finished-at="2023-10-10T18:18:31 CEST" duration-ms="1" status="PASS">
+        <test-method signature="Search()[pri:4, instance:Day34.NewTest@48c3205a]" started-at="2023-10-11T10:26:31 CEST" name="Search" finished-at="2023-10-11T10:26:31 CEST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-10T18:18:31 CEST" name="OpenApp" finished-at="2023-10-10T18:18:31 CEST" duration-ms="524" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-11T10:26:31 CEST" name="OpenApp" finished-at="2023-10-11T10:26:32 CEST" duration-ms="965" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="Searchisdone()[pri:4, instance:Day34.NewTest@48c3205a]" started-at="2023-10-10T18:18:31 CEST" name="Searchisdone" finished-at="2023-10-10T18:18:31 CEST" duration-ms="1" status="PASS">
+        <test-method signature="UpdateInfo()[pri:5, instance:Day34.NewTest@48c3205a]" started-at="2023-10-11T10:26:32 CEST" name="UpdateInfo" finished-at="2023-10-11T10:26:36 CEST" duration-ms="3674" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Searchisdone -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-10T18:18:31 CEST" name="Close" finished-at="2023-10-10T18:18:32 CEST" duration-ms="113" status="PASS">
+        </test-method> <!-- UpdateInfo -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-11T10:26:36 CEST" name="Close" finished-at="2023-10-11T10:26:36 CEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
