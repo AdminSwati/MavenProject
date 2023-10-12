@@ -55,7 +55,7 @@ public class NewTest {
   @Test(priority=4)
   public void Search() {
 	 String actual_title=driver.getTitle();
-	 String expected_title= "OrangeHRM1";
+	 String expected_title= "OrangeHRM";
 	 Assert.assertEquals(actual_title, expected_title);
   }
   
