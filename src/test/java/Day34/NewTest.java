@@ -30,7 +30,7 @@ public class NewTest {
 	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
   }
 	
-  @Test(priority=1)
+  @Test(priority=1,groups ="Smoke Test")
   public void LoginTest() {
 	  driver.findElement(By.name("username")).sendKeys("Admin");
 	  driver.findElement(By.name("password")).sendKeys("admin123");
@@ -49,25 +49,19 @@ public class NewTest {
 			
 		}
 		Assert.assertEquals(exp_label,act_label);
-		/*if(act_label.equals("Dashboard"))
-				System.out.print("Successful login, dashboard is present");
-		else
-				System.out.print("Test failed Dashboard");
-		if(driver.getTitle().equals("OrangeHRM"))
-		System.out.print("\nTest passed, title is OrangeHRM");
-		else
-		System.out.print("\n test failed");*/
+	
   }
   
   @Test(priority=4)
   public void Search() {
 	 String actual_title=driver.getTitle();
-	 String expected_title= "OrangeHRM";
+	 String expected_title= "OrangeHRM1";
 	 Assert.assertEquals(actual_title, expected_title);
   }
   
   @Test(priority=5)
   public void UpdateInfo() {
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/aside/nav/div[2]/ul/li[6]/a")).click();
 	driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[1]/div[1]/div/div/div[2]/div[1]/div[2]/input")).sendKeys(Keys.CONTROL + "a");
 	driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[1]/div[1]/div/div/div[2]/div[1]/div[2]/input")).sendKeys(Keys.DELETE);

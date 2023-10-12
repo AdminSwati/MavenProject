@@ -1,45 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-11T10:26:25 CEST" name="Default suite" finished-at="2023-10-11T10:26:36 CEST" duration-ms="11124">
+  <suite started-at="2023-10-12T09:06:28 CEST" name="Default suite" finished-at="2023-10-12T09:06:38 CEST" duration-ms="9854">
     <groups>
+      <group name="Smoke Test">
+        <method signature="NewTest.LoginTest()[pri:1, instance:Day34.NewTest@48c3205a]" name="LoginTest" class="Day34.NewTest"/>
+      </group> <!-- Smoke Test -->
     </groups>
-    <test started-at="2023-10-11T10:26:25 CEST" name="Default test" finished-at="2023-10-11T10:26:36 CEST" duration-ms="11124">
+    <test started-at="2023-10-12T09:06:28 CEST" name="Default test" finished-at="2023-10-12T09:06:38 CEST" duration-ms="9854">
       <class name="Day34.NewTest">
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-11T10:26:25 CEST" name="OpenApp" finished-at="2023-10-11T10:26:28 CEST" duration-ms="2466" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-12T09:06:28 CEST" name="OpenApp" finished-at="2023-10-12T09:06:29 CEST" duration-ms="1214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="LoginTest()[pri:1, instance:Day34.NewTest@48c3205a]" started-at="2023-10-11T10:26:28 CEST" name="LoginTest" finished-at="2023-10-11T10:26:29 CEST" duration-ms="1560" status="PASS">
+        <test-method signature="LoginTest()[pri:1, instance:Day34.NewTest@48c3205a]" started-at="2023-10-12T09:06:29 CEST" name="LoginTest" finished-at="2023-10-12T09:06:29 CEST" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-11T10:26:29 CEST" name="OpenApp" finished-at="2023-10-11T10:26:30 CEST" duration-ms="692" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-12T09:06:29 CEST" name="OpenApp" finished-at="2023-10-12T09:06:32 CEST" duration-ms="2208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="DashboardTest()[pri:3, instance:Day34.NewTest@48c3205a]" started-at="2023-10-11T10:26:30 CEST" name="DashboardTest" finished-at="2023-10-11T10:26:30 CEST" duration-ms="614" status="PASS">
+        <test-method signature="DashboardTest()[pri:3, instance:Day34.NewTest@48c3205a]" started-at="2023-10-12T09:06:32 CEST" name="DashboardTest" finished-at="2023-10-12T09:06:32 CEST" duration-ms="493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DashboardTest -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-11T10:26:30 CEST" name="OpenApp" finished-at="2023-10-11T10:26:31 CEST" duration-ms="1060" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-12T09:06:32 CEST" name="OpenApp" finished-at="2023-10-12T09:06:34 CEST" duration-ms="1479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="Search()[pri:4, instance:Day34.NewTest@48c3205a]" started-at="2023-10-11T10:26:31 CEST" name="Search" finished-at="2023-10-11T10:26:31 CEST" duration-ms="16" status="PASS">
+        <test-method signature="Search()[pri:4, instance:Day34.NewTest@48c3205a]" started-at="2023-10-12T09:06:34 CEST" name="Search" finished-at="2023-10-12T09:06:34 CEST" duration-ms="19" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [OrangeHRM1] but found [OrangeHRM]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [OrangeHRM1] but found [OrangeHRM]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at Day34.NewTest.Search(NewTest.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-11T10:26:31 CEST" name="OpenApp" finished-at="2023-10-11T10:26:32 CEST" duration-ms="965" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-12T09:06:34 CEST" name="OpenApp" finished-at="2023-10-12T09:06:35 CEST" duration-ms="929" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="UpdateInfo()[pri:5, instance:Day34.NewTest@48c3205a]" started-at="2023-10-11T10:26:32 CEST" name="UpdateInfo" finished-at="2023-10-11T10:26:36 CEST" duration-ms="3674" status="PASS">
+        <test-method signature="UpdateInfo()[pri:5, instance:Day34.NewTest@48c3205a]" started-at="2023-10-12T09:06:35 CEST" name="UpdateInfo" finished-at="2023-10-12T09:06:38 CEST" duration-ms="3106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateInfo -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-11T10:26:36 CEST" name="Close" finished-at="2023-10-11T10:26:36 CEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:Day34.NewTest@48c3205a]" started-at="2023-10-12T09:06:38 CEST" name="Close" finished-at="2023-10-12T09:06:38 CEST" duration-ms="115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->

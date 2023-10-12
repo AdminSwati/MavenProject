@@ -35,7 +35,7 @@ public class LoginTest {
 		else
 				System.out.print("Test failed Dashboard");
 		if(driver.getTitle().equals("OrangeHRM"))
-		System.out.print("\nTest passed, title is OrangeHRM");
+		System.out.print("\n Title is OrangeHRM");
 		else
 		System.out.print("\n test failed");
 		driver.quit();
