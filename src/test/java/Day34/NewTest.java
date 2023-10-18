@@ -55,7 +55,7 @@ public class NewTest {
   @Test(priority=4)
   public void Search() {
 	 String actual_title=driver.getTitle();
-	 String expected_title= "OrangeHRM1";
+	 String expected_title= "OrangeHRM";
 	 Assert.assertEquals(actual_title, expected_title);
   }
   
@@ -69,7 +69,7 @@ public class NewTest {
 	driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[2]/div[1]/div[1]/div/div[2]/input")).sendKeys(Keys.CONTROL + "a");
 	driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[2]/div[1]/div[1]/div/div[2]/input")).sendKeys(Keys.DELETE);
 	driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[2]/div[1]/div[1]/div/div[2]/input")).sendKeys("Emp03");
-	driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[5]/button")).click();
+	driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[4]/button")).click();
 	
   }
   @AfterClass

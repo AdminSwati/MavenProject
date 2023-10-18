@@ -7,7 +7,7 @@
         <methods>
           <include name="OpenApp"/>
           <include name="Close"/>
-          <include name="Search"/>
+          <include name="UpdateInfo"/>
         </methods>
       </class> <!-- Day34.NewTest -->
     </classes>
