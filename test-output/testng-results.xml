@@ -1,17 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-21T10:54:36 CET" name="Default suite" finished-at="2023-11-21T10:54:36 CET" duration-ms="80">
+  <suite started-at="2023-11-21T14:25:19 CET" name="Default suite" finished-at="2023-11-21T14:25:28 CET" duration-ms="8869">
     <groups>
+      <group name="Smoke Test">
+        <method signature="NewTest.LoginTest()[pri:1, instance:Day34.NewTest@3721177d]" name="LoginTest" class="Day34.NewTest"/>
+      </group> <!-- Smoke Test -->
     </groups>
-    <test started-at="2023-11-21T10:54:36 CET" name="Default test" finished-at="2023-11-21T10:54:36 CET" duration-ms="80">
-      <class name="NewTest22">
-        <test-method signature="f()[pri:0, instance:NewTest22@76a4ebf2]" started-at="2023-11-21T10:54:36 CET" name="f" finished-at="2023-11-21T10:54:36 CET" duration-ms="8" status="PASS">
+    <test started-at="2023-11-21T14:25:19 CET" name="Default test" finished-at="2023-11-21T14:25:28 CET" duration-ms="8869">
+      <class name="Day34.NewTest">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@3721177d]" started-at="2023-11-21T14:25:20 CET" name="OpenApp" finished-at="2023-11-21T14:25:21 CET" duration-ms="1425" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- NewTest22 -->
+        </test-method> <!-- OpenApp -->
+        <test-method signature="LoginTest()[pri:1, instance:Day34.NewTest@3721177d]" started-at="2023-11-21T14:25:21 CET" name="LoginTest" finished-at="2023-11-21T14:25:21 CET" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@3721177d]" started-at="2023-11-21T14:25:21 CET" name="OpenApp" finished-at="2023-11-21T14:25:23 CET" duration-ms="1781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="DashboardTest()[pri:3, instance:Day34.NewTest@3721177d]" started-at="2023-11-21T14:25:23 CET" name="DashboardTest" finished-at="2023-11-21T14:25:24 CET" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardTest -->
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@3721177d]" started-at="2023-11-21T14:25:24 CET" name="OpenApp" finished-at="2023-11-21T14:25:25 CET" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="Search()[pri:4, instance:Day34.NewTest@3721177d]" started-at="2023-11-21T14:25:25 CET" name="Search" finished-at="2023-11-21T14:25:25 CET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@3721177d]" started-at="2023-11-21T14:25:25 CET" name="OpenApp" finished-at="2023-11-21T14:25:26 CET" duration-ms="1014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="UpdateInfo()[pri:5, instance:Day34.NewTest@3721177d]" started-at="2023-11-21T14:25:26 CET" name="UpdateInfo" finished-at="2023-11-21T14:25:28 CET" duration-ms="2614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateInfo -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:Day34.NewTest@3721177d]" started-at="2023-11-21T14:25:28 CET" name="Close" finished-at="2023-11-21T14:25:28 CET" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- Day34.NewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
