@@ -14,9 +14,6 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class XLUtility{
 	
-
-	
-
 		public static FileInputStream fi;
 		public static FileOutputStream fo;
 		public static XSSFWorkbook wb;

@@ -1,64 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-30T12:47:45 CET" name="Default suite" finished-at="2023-11-30T12:48:01 CET" duration-ms="16025">
+  <suite started-at="2023-12-05T17:05:44 CET" name="Default suite" finished-at="2023-12-05T17:05:49 CET" duration-ms="4959">
     <groups>
-      <group name="Regression Test">
-        <method signature="NewTest.DashboardTest()[pri:3, instance:Day34.NewTest@36dfbdaf]" name="DashboardTest" class="Day34.NewTest"/>
-        <method signature="NewTest.CheckTitle()[pri:4, instance:Day34.NewTest@36dfbdaf]" name="CheckTitle" class="Day34.NewTest"/>
-      </group> <!-- Regression Test -->
-      <group name="Smoke Test">
-        <method signature="NewTest.LoginTest()[pri:1, instance:Day34.NewTest@36dfbdaf]" name="LoginTest" class="Day34.NewTest"/>
-      </group> <!-- Smoke Test -->
     </groups>
-    <test started-at="2023-11-30T12:47:45 CET" name="Default test" finished-at="2023-11-30T12:48:01 CET" duration-ms="16025">
-      <class name="Day34.NewTest">
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@36dfbdaf]" started-at="2023-11-30T12:47:45 CET" name="OpenApp" finished-at="2023-11-30T12:47:47 CET" duration-ms="1992" status="PASS">
+    <test started-at="2023-12-05T17:05:44 CET" name="Default test" finished-at="2023-12-05T17:05:49 CET" duration-ms="4959">
+      <class name="Day39.LoginngTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Day39.LoginngTest@4d1c005e]" started-at="2023-12-05T17:05:44 CET" name="setup" finished-at="2023-12-05T17:05:47 CET" duration-ms="3537" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenApp -->
-        <test-method signature="LoginTest()[pri:1, instance:Day34.NewTest@36dfbdaf]" started-at="2023-11-30T12:47:47 CET" name="LoginTest" finished-at="2023-11-30T12:47:48 CET" duration-ms="1072" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testLogo()[pri:1, instance:Day39.LoginngTest@4d1c005e]" started-at="2023-12-05T17:05:47 CET" name="testLogo" finished-at="2023-12-05T17:05:47 CET" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@36dfbdaf]" started-at="2023-11-30T12:47:48 CET" name="OpenApp" finished-at="2023-11-30T12:47:48 CET" duration-ms="798" status="PASS">
+        </test-method> <!-- testLogo -->
+        <test-method signature="testLogin()[pri:2, instance:Day39.LoginngTest@4d1c005e]" started-at="2023-12-05T17:05:47 CET" name="testLogin" finished-at="2023-12-05T17:05:48 CET" duration-ms="1143" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenApp -->
-        <test-method signature="DashboardTest()[pri:3, instance:Day34.NewTest@36dfbdaf]" started-at="2023-11-30T12:47:48 CET" name="DashboardTest" finished-at="2023-11-30T12:47:49 CET" duration-ms="396" status="PASS">
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Day39.LoginngTest@4d1c005e]" started-at="2023-12-05T17:05:48 CET" name="tearDown" finished-at="2023-12-05T17:05:49 CET" duration-ms="226" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DashboardTest -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@36dfbdaf]" started-at="2023-11-30T12:47:49 CET" name="OpenApp" finished-at="2023-11-30T12:47:50 CET" duration-ms="1140" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenApp -->
-        <test-method signature="CheckTitle()[pri:4, instance:Day34.NewTest@36dfbdaf]" started-at="2023-11-30T12:47:50 CET" name="CheckTitle" finished-at="2023-11-30T12:47:50 CET" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckTitle -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@36dfbdaf]" started-at="2023-11-30T12:47:50 CET" name="OpenApp" finished-at="2023-11-30T12:47:51 CET" duration-ms="965" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenApp -->
-        <test-method signature="UpdateInfo()[pri:5, instance:Day34.NewTest@36dfbdaf]" started-at="2023-11-30T12:47:51 CET" name="UpdateInfo" finished-at="2023-11-30T12:47:54 CET" duration-ms="2814" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UpdateInfo -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@36dfbdaf]" started-at="2023-11-30T12:47:54 CET" name="OpenApp" finished-at="2023-11-30T12:47:54 CET" duration-ms="567" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenApp -->
-        <test-method signature="UpdateEmergency()[pri:6, instance:Day34.NewTest@36dfbdaf]" started-at="2023-11-30T12:47:54 CET" name="UpdateEmergency" finished-at="2023-11-30T12:48:00 CET" duration-ms="6002" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UpdateEmergency -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:Day34.NewTest@36dfbdaf]" started-at="2023-11-30T12:48:00 CET" name="Close" finished-at="2023-11-30T12:48:01 CET" duration-ms="235" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Close -->
-      </class> <!-- Day34.NewTest -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- Day39.LoginngTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

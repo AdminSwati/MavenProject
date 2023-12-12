@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Day34.NewTest">
+      <class name="Day39.LoginngTest">
         <methods>
-          <include name="OpenApp"/>
-          <include name="Close"/>
-          <include name="UpdateEmergencyfromTestData"/>
+          <include name="testLogin"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- Day34.NewTest -->
+      </class> <!-- Day39.LoginngTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -116,7 +116,7 @@ public class NewTest {
   @AfterClass
  
   public void Close() {
-	   driver.quit();
+	  // driver.quit();
   }
   
 }
