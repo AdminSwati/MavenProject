@@ -5,6 +5,7 @@
 	 <groups>
 		 <run>
 			 <include name= "Smoke Test"></include>
+			 <include name= "Regression Test"></include>
 		 </run>
 	 </groups>
     <classes>
