@@ -85,7 +85,7 @@ public class NewTest {
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	js.executeScript("window.scrollBy(0,100)", "");
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-	driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[5]/button")).click();
+	driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[4]/button")).click();
 	
   }
   @Test(priority =6, groups ="Smoke Test")
