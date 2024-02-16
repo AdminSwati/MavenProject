@@ -9,6 +9,7 @@
 	 </groups>
     <classes>
       <class name="Day34.NewTest"/>
+    
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
