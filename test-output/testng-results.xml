@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-16T12:24:53 CET" name="Default suite" finished-at="2024-02-16T12:25:33 CET" duration-ms="40324">
+  <suite started-at="2024-02-16T12:45:06 CET" name="Default suite" finished-at="2024-02-16T12:45:46 CET" duration-ms="39996">
     <groups>
       <group name="Regression Test">
         <method signature="NewTest.DashboardTest()[pri:3, instance:Day34.NewTest@2257fadf]" name="DashboardTest" class="Day34.NewTest"/>
@@ -10,39 +10,41 @@
       </group> <!-- Regression Test -->
       <group name="Smoke Test">
         <method signature="NewTest.LoginTest()[pri:1, instance:Day34.NewTest@2257fadf]" name="LoginTest" class="Day34.NewTest"/>
+        <method signature="NewTest.UpdateInfo()[pri:5, instance:Day34.NewTest@2257fadf]" name="UpdateInfo" class="Day34.NewTest"/>
+        <method signature="NewTest.UpdateEmergency()[pri:6, instance:Day34.NewTest@2257fadf]" name="UpdateEmergency" class="Day34.NewTest"/>
       </group> <!-- Smoke Test -->
     </groups>
-    <test started-at="2024-02-16T12:24:53 CET" name="Default test" finished-at="2024-02-16T12:25:33 CET" duration-ms="40324">
+    <test started-at="2024-02-16T12:45:06 CET" name="Default test" finished-at="2024-02-16T12:45:46 CET" duration-ms="39996">
       <class name="Day34.NewTest">
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:24:53 CET" name="OpenApp" finished-at="2024-02-16T12:24:57 CET" duration-ms="4005" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:45:06 CET" name="OpenApp" finished-at="2024-02-16T12:45:08 CET" duration-ms="2051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="LoginTest()[pri:1, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:24:57 CET" name="LoginTest" finished-at="2024-02-16T12:24:57 CET" duration-ms="533" status="PASS">
+        <test-method signature="LoginTest()[pri:1, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:45:08 CET" name="LoginTest" finished-at="2024-02-16T12:45:11 CET" duration-ms="2373" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:24:57 CET" name="OpenApp" finished-at="2024-02-16T12:24:59 CET" duration-ms="1701" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:45:11 CET" name="OpenApp" finished-at="2024-02-16T12:45:12 CET" duration-ms="1260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="DashboardTest()[pri:3, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:24:59 CET" name="DashboardTest" finished-at="2024-02-16T12:25:00 CET" duration-ms="519" status="PASS">
+        <test-method signature="DashboardTest()[pri:3, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:45:12 CET" name="DashboardTest" finished-at="2024-02-16T12:45:13 CET" duration-ms="579" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DashboardTest -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:25:00 CET" name="OpenApp" finished-at="2024-02-16T12:25:01 CET" duration-ms="1486" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:45:13 CET" name="OpenApp" finished-at="2024-02-16T12:45:14 CET" duration-ms="1378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="CheckTitle()[pri:4, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:25:01 CET" name="CheckTitle" finished-at="2024-02-16T12:25:01 CET" duration-ms="10" status="PASS">
+        <test-method signature="CheckTitle()[pri:4, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:45:14 CET" name="CheckTitle" finished-at="2024-02-16T12:45:14 CET" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckTitle -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:25:01 CET" name="OpenApp" finished-at="2024-02-16T12:25:02 CET" duration-ms="1082" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:45:14 CET" name="OpenApp" finished-at="2024-02-16T12:45:15 CET" duration-ms="998" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="UpdateInfo()[pri:5, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:25:02 CET" name="UpdateInfo" finished-at="2024-02-16T12:25:25 CET" duration-ms="23049" status="FAIL">
+        <test-method signature="UpdateInfo()[pri:5, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:45:15 CET" name="UpdateInfo" finished-at="2024-02-16T12:45:39 CET" duration-ms="23887" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[5]/button"}
@@ -51,9 +53,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cf2b590509093e4bfe58d1cff0331c7c, findElement {using=xpath, value=//*[@id="app"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[5]/button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\swati\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57000}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57000/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cf2b590509093e4bfe58d1cff0331c7c]]>
+Command: [f56a8d81342ec180c099170ab1c9bc49, findElement {using=xpath, value=//*[@id="app"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[5]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\swati\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57595}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57595/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f56a8d81342ec180c099170ab1c9bc49]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[5]/button"}
@@ -62,9 +64,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cf2b590509093e4bfe58d1cff0331c7c, findElement {using=xpath, value=//*[@id="app"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[5]/button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\swati\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57000}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57000/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cf2b590509093e4bfe58d1cff0331c7c
+Command: [f56a8d81342ec180c099170ab1c9bc49, findElement {using=xpath, value=//*[@id="app"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[5]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\swati\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57595}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57595/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f56a8d81342ec180c099170ab1c9bc49
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -116,15 +118,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateInfo -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:25:25 CET" name="OpenApp" finished-at="2024-02-16T12:25:26 CET" duration-ms="723" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:45:39 CET" name="OpenApp" finished-at="2024-02-16T12:45:40 CET" duration-ms="734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="UpdateEmergency()[pri:6, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:25:26 CET" name="UpdateEmergency" finished-at="2024-02-16T12:25:33 CET" duration-ms="6893" status="PASS">
+        <test-method signature="UpdateEmergency()[pri:6, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:45:40 CET" name="UpdateEmergency" finished-at="2024-02-16T12:45:46 CET" duration-ms="6478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateEmergency -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:25:33 CET" name="Close" finished-at="2024-02-16T12:25:33 CET" duration-ms="265" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:Day34.NewTest@2257fadf]" started-at="2024-02-16T12:45:46 CET" name="Close" finished-at="2024-02-16T12:45:46 CET" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->

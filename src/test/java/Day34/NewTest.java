@@ -67,7 +67,7 @@ public class NewTest {
 	 Assert.assertEquals(actual_title, expected_title);
   }
   
-  @Test(priority=5)
+  @Test(priority=5, groups ="Smoke Test")
   public void UpdateInfo() {
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/aside/nav/div[2]/ul/li[6]/a")).click();
@@ -88,7 +88,7 @@ public class NewTest {
 	driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[5]/button")).click();
 	
   }
-  @Test(priority =6)
+  @Test(priority =6, groups ="Smoke Test")
   public void UpdateEmergency()
   {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
